@@ -1,0 +1,385 @@
+
+body {
+  background-image: url("images/bgii.jpg");
+}
+
+a{
+ color: #ffff;
+}
+
+a:hover{
+  color: #ffff;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: bold !important;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: bold !important;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+
+.navbar{
+  font-family: 'Jost', sans-serif;
+  position: fixed;
+  overflow:hidden;
+  width: 100%;
+  background-color: forestgreen;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: forestgreen;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lead{
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+}
+
+.btn-teal1{
+  background-color: forestgreen !important;
+}
+
+.display-4{
+  font-family: 'Jost', sans-serif;
+}
+
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    border-radius: 0%
+}
+
+.carousel-caption{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-fluid1{
+  -webkit-filter: blur(5px);
+ filter: blur(5px);
+}
+
+
+.text-teal1{
+  color: forestgreen !important;
+}
+
+.btn{
+  background-color: black;
+}
+
+.text-teal{
+  font-size: bold;
+  color: forestgreen !important;
+  font-family: 'Jost', sans-serif;
+}
+
+
+.h2{
+  font-weight: bold;
+  font-style: normal !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-title{
+  font-weight: 800 !important;
+  font-style: normal !important;
+  font-family: 'Montserrat', sans-serif;
+  color: forestgreen;
+}
+
+.card-text{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: bold !important;
+}
+
+
+.price{
+  color: green;
+  font-family: 'Jost', sans-serif;
+}
+
+.bg-teal , .btn-teal{
+  background-color: forestgreen;
+}
+
+
+.form-control-submit
+{
+  background-color: forestgreen;
+  font-family: 'Jost', sans-serif;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.form-control-submit:hover
+{
+  background-color: darkgreen;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.about-section{
+    background: url("/images/travel.webp")  no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text{
+    font-size: 20px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.img-fluid {
+  border: 5px solid #555;
+  box-shadow: 5px 5px;
+}
+
+.row img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.row :hover img  {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+.contact-form{
+    background: #fff;
+    margin-top: 80px;
+    margin-bottom: 5%;
+    width: 70%;
+
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+    color: forestgreen;
+}
+.contact-image img{
+   text-align: center;
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: forestgreen;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    margin-left: 230px;
+    border-radius: 1rem;
+    margin-top: 20px;
+    padding: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    background: forestgreen;
+    font-weight: 1000 !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+      font-family: 'Jost', sans-serif;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: forestgreen;
+}
+.aboutus-title::after {
+    background: forestgreen none repeat scroll 0 0;
+      font-family: 'Jost', sans-serif;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: black;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+
+}
+
+.aboutus-more {
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: forestgreen;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.feature .feature-box .feature-content h4 {
+    font-family: 'Jost', sans-serif;
+    color: forestgreen;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+    float:right;
+    padding-left: 28px;
+    margin-right: 300px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: forestgreen;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+      font-weight: bold !important;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid forestgreen;
+    border-radius: 100px;
+    color: forestgreen;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+.img-fluid0{
+  width: 500px;
+  length: 500px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+#gallery{
+  margin-top: 55px;
+}
+#places{
+  margin-top: 55px;
+}
+
+#travel-slider{
+  margin-top: 55px;
+}
+
+#active{
+  color: midnightblue;
+}
+
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
